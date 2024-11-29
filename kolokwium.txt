@@ -1,0 +1,26 @@
+1)
+Wektor węzłów: [0,1,2,3], ponieważ ‘ostry’ wykres wskazuje na stopień pierwszy kombinacji liniowej
+Wektor współczynników: [0,1,0]
+2)
+T=[0,0,0,0,1,2,3,4,4,4,4], ponieważ baza funkcji wskazuje na stopień drugi lub trzeci
+3)
+Thomas J.R. Hughes jest autorem koncepcji analizy izogeometrycznej (Isogeometric Analysis, IGA).
+Raymond Clough jest twórcą metody elementów skończonych (FEM, Finite Element Method).
+4)
+T=[0,0,0,1,2,3,4,4,4]
+5)
+T=[0,0,0,0,1,1,2,2,3,3,4,4,5,5,5,5]
+6)
+p = 3
+U=[0,0,0,0,0.5,1,1.5,2,2,2,2]
+V=[0,0,0,0,0.5,1,1.5,2,2,2,2]
+7)
+Stopień funkcji bazowych można obliczyć ze wzoru:
+p = k - 1 .
+Liczbę funkcji bazowych  n  określamy:
+n = N - p - 1 , co upraszcza się do:
+n = N - (k - 1) - 1 = N - k
+Zatem podany wektor definiuje 7 funkcji B-spline.
+
+10)
+Przy rozwiązywaniu równania transportu ciepła, metoda Eulera może być stosowana w połączeniu z przestrzenną dyskretyzacją za pomocą metody różnic skończonych
